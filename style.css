@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{   
+    position: relative;
+    background-image: url(https://a.cdn-hotels.com/gdcs/production3/d1581/88af6985-83f3-4326-ab3b-b6a674fbedb2.jpg?impolicy=fcrop&w=800&h=533&q=medium);
+    height: 400px;
+    width: 290px;
+    border-radius: 25px;
+    margin:auto;
+    margin-top:125px ;
+    overflow: hidden;
+    filter: grayscale(0.9);
+    
+    
+}
+
+.save{
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    width: 60px;
+    padding:8px;
+    right: 15px;
+    top: -35px;
+    text-align: center;
+    transition: 0.3s ease-out;
+    opacity: 0.8;
+
+}
+
+.bottom_left{
+    position:absolute;
+    background-color: white;
+    opacity: 0.7;
+    width: 130px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    bottom:-40px;
+    left: 15px;
+    transition: 0.3s ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bottom_center{
+    position:absolute;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    bottom:-40px;
+    left: 180px;
+    width: 33px;
+    transition: 0.3s ease-out;
+}
+
+
+.bottom_right{
+    position:absolute;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    bottom:-40px;
+    right: 30px;
+    width: 33px;
+    transition: 0.3s ease-out;
+
+}
+
+.card:hover .save{
+    width: 60px;
+    padding:8px;
+    right: 15px;
+    top: 15px;
+   
+}
+
+.card:hover .bottom_left{
+    position:absolute;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    bottom: 25px;
+    left: 15px;
+}
+
+.card:hover .bottom_center{
+
+}
+
+
+.card:hover .bottom_center{
+    position:absolute;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    bottom: 25px;
+    left: 180px;
+    width: 33px;
+}
+
+.card:hover .bottom_right{
+    position:absolute;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    bottom: 25px;
+    right: 30px;
+    width: 33px;
+}
+
+.bottom_left:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.bottom_center:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.bottom_right:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.save:hover{
+    cursor: pointer;
+    opacity: 1;
+
+
+}
+
+.card:hover {
+    filter: none;
+    transition: 0.3s ease-in-out;
+}
+
